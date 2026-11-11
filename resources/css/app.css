@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent occasional horizontal overflow on small screens caused by non-wrapping header elements */
+html, body {
+	overflow-x: hidden;
+}
